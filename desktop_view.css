@@ -1,0 +1,48 @@
+/* import the font file*/
+@font-face {
+  font-family: inter-regular;
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "inter-regular";
+}
+.container{
+    max-width: 1440px;
+    margin: 3rem 5rem;
+}
+
+/* Utilities*/
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-items: flex-start;
+}
+/* navbar*/
+.navbar{margin:0px 0px 16px 0px;}
+.navbar .logo{
+    transform: scale(0.6);
+}
+.navbar .list-container li{
+    list-style: none;
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+    margin-left: 2rem;
+}
+.navbar .list-container li:hover{
+    cursor: pointer;
+    color:hsl(5, 85%, 63%);
+}
+/* ending the navbar*/
