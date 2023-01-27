@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   font-family: "inter-regular";
+  font-size: 15px;
 }
 .container{
     max-width: 1440px;
@@ -30,6 +31,18 @@
 .align-start{
     align-items: flex-start;
 }
+.grid{
+    display: grid;
+     
+
+}
+
+
+
+
+
+
+
 /* navbar*/
 .navbar{margin:0px 0px 16px 0px;}
 .navbar .logo{
@@ -46,3 +59,82 @@
     color:hsl(5, 85%, 63%);
 }
 /* ending the navbar*/
+
+/*the intro section*/
+.intro{
+    width: 100%;
+    height: 50%; 
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.intro .visual-view{
+    
+}
+.intro .visual-view img{
+    width: 100%;
+    height:250px;
+}
+.intro .visual-view .visual-text{
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 75px;
+}
+.intro .visual-view .visual-text .title {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top:20px ;
+}
+.intro .visual-view .visual-text .desc{
+margin-top: 20px;
+}
+.intro .visual-view .visual-text .desc p{ 
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5;
+}
+.intro .visual-view .visual-text .desc button{
+width: 150px;
+height: 40px;
+color: hsl(36, 100%, 99%);
+background-color: hsl(5, 85%, 63%);
+border: none;
+ margin-top: 70px;
+}
+.intro .visual-view .visual-text .desc button:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+
+
+
+
+.intro .text-view{
+    color: hsl(36, 100%, 99%);
+    background-color:  hsl(240, 100%, 5%);
+    
+}
+.intro .text-view h1{
+    color: hsl(35, 77%, 62%);
+    font-size: 30px;
+    margin:30px 10px 30px 20px ;
+}
+.intro .text-view .heading-details{
+    margin:30px 10px 30px 20px;
+}
+.intro .text-view hr{
+     margin : 0px 20px 0px 20px;
+     color: hsl(236, 13%, 42%);
+}
+.intro .text-view .heading-details h5{
+    margin:0px 0px 20px 0px;
+    
+}
+.intro .text-view .heading-details h5:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+.intro .text-view .heading-details p{
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5;
+}
