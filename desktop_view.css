@@ -138,3 +138,36 @@ border: none;
     color: hsl(236, 13%, 42%);
     line-height: 1.5;
 }
+
+/*the footer section*/
+.footer{
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.footer .footer-item{
+    margin: 4rem 0 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.footer .footer-item img{
+    width: 30%;
+    
+}
+.footer .footer-item .details{
+    margin: 0px 20px;
+}
+.footer .footer-item .details h2{
+    margin: 0px 0px 15px 0px;
+    color:  hsl(233, 8%, 79%);
+    font-size: 30px;
+    font-weight: 900;
+}
+.footer .footer-item .details h5{
+    margin: 0px 0px 15px 0px;
+}
+.footer .footer-item .details p{
+    margin: 15px 0px 0px 0px;
+    color:  hsl(233, 8%, 79%);
+}
