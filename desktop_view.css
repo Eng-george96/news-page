@@ -69,17 +69,33 @@ display: none;
 }
 /* ending the navbar*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*the intro section*/
 .intro{
     width: 100%;
-    height: 50%; 
     grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
     margin-top: 3rem;
 }
 .intro .visual-view{
-    
+ height: fit-content;   
 }
 .intro .visual-view img{
     width: 100%;
@@ -148,6 +164,39 @@ border: none;
     color: hsl(236, 13%, 42%);
     line-height: 1.5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*the footer section*/
 .footer{

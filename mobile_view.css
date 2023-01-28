@@ -1,41 +1,55 @@
-
-
 @media screen and (max-width: 375px) {
-    .container {
-        max-width: 375px;
-        margin: 10px;
-      }
-      /* the navbar mobile*/
-      .navbar{
-        position: relative;
-      }
-      .navbar .icon-close-menu{
-        z-index:2;
-      }
-      .navbar .menu-bar-items{
-        position: absolute;
-        height: 100vh;
-        width: 75vw;
-        right: 0;
-        top: 0;
-        background-color: hsl(36, 100%, 99%);
-        color: hsl(240, 100%, 5%);
-      }
-      .navbar .menu-bar-items ul{
-        margin: 8rem 0 0 1rem;
-      }
-      .navbar .menu-bar-items ul li{
-        list-style: none;
-        margin: 1rem 0;
-      }
-      .navbar .list-container{
-        display: none;
-      }
-      .navbar .icon-menu{
-        display: block;
-    }
-    /*ending the navbar mobile*/
+  .container {
+    max-width: 375px;
+    margin: 10px;
+  }
+  /* the navbar mobile*/
+  .navbar {
+    position: relative;
+  }
+  .navbar .icon-close-menu {
+    z-index: 2;
+  }
+  .navbar .menu-bar-items {
+    position: absolute;
+    height: 100vh;
+    width: 75vw;
+    right: 0;
+    top: 0;
+    background-color: hsl(36, 100%, 99%);
+    color: hsl(240, 100%, 5%);
+  }
+  .navbar .menu-bar-items ul {
+    margin: 8rem 0 0 1rem;
+  }
+  .navbar .menu-bar-items ul li {
+    list-style: none;
+    margin: 1rem 0;
+  }
+  .navbar .list-container {
+    display: none;
+  }
+  .navbar .icon-menu {
+    display: block;
+  }
+  /*ending the navbar mobile*/
 
-    /*the intro mobile */
+  /*the intro mobile */
+  .intro {
+    grid-template-rows: 1fr 0.8fr;
+    grid-template-columns: 1fr;
     
+  }
+  .intro .visual-view {
+    height: fit-content;
+  }
+  .intro .visual-view .visual-text {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .intro .visual-view .visual-text .desc,
+  .intro .visual-view .visual-text .desc button {
+    margin-top: 20px;
+  }
 }
