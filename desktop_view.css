@@ -34,7 +34,6 @@
 .grid{
     display: grid;
      
-
 }
 
 
@@ -46,7 +45,7 @@
 /* navbar*/
 .navbar{margin:0px 0px 16px 0px;}
 .navbar .logo{
-    transform: scale(0.6);
+    transform: scale(0.8);
 }
 .navbar .list-container li{
     list-style: none;
@@ -58,6 +57,16 @@
     cursor: pointer;
     color:hsl(5, 85%, 63%);
 }
+
+
+.navbar .icon-menu{
+    display: none;
+}
+.navbar .icon-close-menu{display: none;}
+.navbar .menu-bar-items{
+display: none;
+
+}
 /* ending the navbar*/
 
 /*the intro section*/
@@ -67,6 +76,7 @@
     grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
+    margin-top: 3rem;
 }
 .intro .visual-view{
     
@@ -124,7 +134,7 @@ border: none;
 }
 .intro .text-view hr{
      margin : 0px 20px 0px 20px;
-     color: hsl(236, 13%, 42%);
+     border: 1px solid hsl(236, 13%, 42%);
 }
 .intro .text-view .heading-details h5{
     margin:0px 0px 20px 0px;
@@ -170,4 +180,5 @@ border: none;
 .footer .footer-item .details p{
     margin: 15px 0px 0px 0px;
     color:  hsl(233, 8%, 79%);
+
 }
