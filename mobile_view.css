@@ -46,10 +46,16 @@
   .intro .visual-view .visual-text {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
+    margin: inherit 0 ;
     gap: 0px;
   }
   .intro .visual-view .visual-text .desc,
   .intro .visual-view .visual-text .desc button {
     margin-top: 20px;
+  }
+  /*ending the intro mobile*/
+  .footer{
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: 1fr;
   }
 }

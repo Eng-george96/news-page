@@ -226,6 +226,10 @@ border: none;
 .footer .footer-item .details h5{
     margin: 0px 0px 15px 0px;
 }
+.footer .footer-item .details h5:hover{
+    color:  hsl(5, 85%, 63%);
+    cursor: pointer;
+}
 .footer .footer-item .details p{
     margin: 15px 0px 0px 0px;
     color:  hsl(233, 8%, 79%);
